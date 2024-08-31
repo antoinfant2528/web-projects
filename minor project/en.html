@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <link rel="stylesheet" href="en.css">
+</head>
+<body>
+    <h1>Employee Management System</h1>
+
+    <div class="form-container">
+        <h2>Employee Details
+        </h2>
+        <form id="employeeForm">
+            <input type="hidden" id="empId">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+            <br>
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    
+    <div class="table-container">
+        <h2>Employee List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTableBody">
+                <!-- Employee rows will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
