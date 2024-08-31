@@ -1,0 +1,37 @@
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    color: grey;
+    margin-left: 60%;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width:60%;
+    padding:15px;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+.box{
+    margin-left:40px ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: inline-block;
+    width:220px;
+}
+.products{
+    text-align: center;
+}
