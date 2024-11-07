@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STROM 2K24</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">   
+  <link rel="shortcut icon" href="assests/WhatsApp_Image_2024-09-09_at_20.38.11_49b8df13-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+
+  <video class="background-video" autoplay muted loop>
+    <source src="assests/Gen-3 Alpha Turbo 4009616896, smoothly animate the, Cropped - Firefly i.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <header class="header">
+    <a href="index.html" class="home-icon">
+      <img src="assests/icon.png" alt="Home">
+    </a>    
+    <h1 class="bg">STROM 2K24</h1>
+  </header>
+
+  <div class="event-grid">
+    <div class="card">
+      <img src="paper.jpg" alt="Paper Presentation">
+      <div class="card-content">
+        <h2>Starry Insights</h2>
+        <h3>Paper Presentation</h3>
+        <p class="venue">Venue: J31</p>
+        <p>Time: 10.30 AM - 12.30 PM</p>
+        <button class="register-btn" onclick="openPopup('starry-insights')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="vincent.jpg" alt="Treasure Hunt">
+      <div class="card-content">
+        <h2>Vincent’s Voyage</h2>
+        <h3>Treasure Hunt</h3>
+        <p class="venue">Venue: E02 </p>
+        <p>Time: 11.00 AM - 1.00 PM</p>
+        <button class="register-btn" onclick="openPopup('vincent-voyage')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="eup.jpg" alt="Circuit Debugging">
+      <div class="card-content">
+        <h2>Electric Euphoria</h2>
+        <h3>Circuit Debugging</h3>
+        <p class="venue">Venue: F02</p>
+        <p>Time: 12.30 AM - 2.30 PM</p>
+        <button class="register-btn" onclick="openPopup('electric-euphoria')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="iris.jpg" alt="Technical Quiz">
+      <div class="card-content">
+        <h2>Iris Intellect</h2>
+        <h3>Technical Quiz</h3>
+        <p class="venue">Venue: J12</p>
+        <p>Time: 10.00 AM - 12.00 Noon</p>
+        <button class="register-btn" onclick="openPopup('iris-intellect')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="arles.jpg" alt="Surprise Event">
+      <div class="card-content">
+        <h2>Arles Artistry</h2>
+        <h3>Surprise Event</h3>
+        <p class="venue">Venue: E32</p>
+        <p>Time: 11.45 AM - 01.45 PM</p>
+        <button class="register-btn" onclick="openPopup('arles-artistry')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="swirl.jpg" alt="Puzzle 01">
+      <div class="card-content">
+        <h2>Swirls of Genius</h2>
+        <h3>Puzzle</h3>
+        <p class="venue">Venue: F01</p>
+        <p>Time: 10.45 AM - 12.30 PM</p>
+        <button class="register-btn" onclick="openPopup('swirls-of-genius')">view</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="puzzle.jpg" alt="Puzzle 02">
+      <div class="card-content">
+        <h2>Cypress Labyrinth</h2>
+        <h3>Escape Room</h3>
+        <p class="venue">Venue: J12</p>
+        <p>Time: 12.00 Noon - 2.00 PM</p>
+        <button class="register-btn" onclick="openPopup('cypress-labyrinth')">view</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="starry-insights" class="popup">
+    <button class="popup-close" onclick="closePopup('starry-insights')">×</button>
+    <div class="popup-content">
+      <h2>Starry Insights</h2>
+      <p><strong>Description:</strong> 'Starry Insights' symbolizes the bright, innovative ideas our participants will share, illuminating minds and sparking new discoveries in Electrical and Electronics Engineering. Like stars lighting up the night sky, we aim for this event to be a beacon of academic excellence and intellectual exploration.</p>
+      <p> Event head : Adithiyha </p> 
+      <p>Ph.No: 7200158427</p>
+      <button class="popup-register" onclick="redirectToGoogleForm1()">Register</button>
+    </div>
+  </div>
+
+  <div id="vincent-voyage" class="popup">
+    <button class="popup-close" onclick="closePopup('vincent-voyage')">×</button>
+    <div class="popup-content">
+      <h2>Vincent’s Voyage</h2>
+      <p><strong>Description:</strong>Enhance participants' technical skills and team coordination through exciting and educational activities, including ElectroElement Hunt, Mystery Module Quest, and Treasure Hunt.</p>
+      <p> Event head: Lokeshwar K</p>
+      <p>Ph.No: 7550189432</p>
+      <button class="popup-register" onclick="redirectToGoogleForm3()">Register</button>
+    </div>
+  </div>
+
+  <div id="electric-euphoria" class="popup">
+    <button class="popup-close" onclick="closePopup('electric-euphoria')">×</button>
+    <div class="popup-content">
+      <h2>Electric Euphoria</h2>
+      <p><strong>Description:</strong>Enhance participants' technical skills and teamwork through hands-on troubleshooting exercises, including quizzes, circuit formation, error debugging, and circuit identification and building.</p>
+      <p>Event head: Ashwin K</p>
+      <p>Ph.No: 8248065623</p>
+      <button class="popup-register" onclick="redirectToGoogleForm5()">Register</button>
+    </div>
+  </div>
+
+  <div id="iris-intellect" class="popup">
+    <button class="popup-close" onclick="closePopup('iris-intellect')">×</button>
+    <div class="popup-content">
+      <h2>Iris Intellect</h2>
+      <p><strong>Description:</strong>Assess and enhance understanding of electrical engineering concepts, problem-solving skills, and awareness of new technologies through evaluation of theoretical knowledge and practical identification of electrical and electronic components.</p>
+      <p> Event head : Arvin Arjun M </p>
+      <p>Ph.No: 6380561576</p>
+      <button class="popup-register" onclick="redirectToGoogleForm()">Register</button>
+    </div>
+  </div>
+
+  <div id="arles-artistry" class="popup">
+    <button class="popup-close" onclick="closePopup('arles-artistry')">×</button>
+    <div class="popup-content">
+      <h2>Arles Artistry</h2>
+      <p><strong>Description:</strong>Arles Artistry challenges participants to market unusual products with creative ideas and catchy punchlines, with original ads competing for prizes.</p>
+      <p> Event heads : Subin Jenson A</p>
+      <p> Ph.No: 8148629670</p>
+      <button class="popup-register" onclick="redirectToGoogleForm4()">Register</button>
+    </div>
+  </div>
+
+  <div id="swirls-of-genius" class="popup">
+    <button class="popup-close" onclick="closePopup('swirls-of-genius')">×</button>
+    <div class="popup-content">
+      <h2>Swirls of Genius</h2>
+      <p><strong>Description:</strong>
+        Strengthen your grasp of core concepts in circuit theory, power systems, and more, while honing critical and innovative problem-solving skills through engaging puzzles.</p>
+      <p> Event heads : Gopika P</p>
+      <p> Ph.No: 6369585765</p>
+      <button class="popup-register" onclick="redirectToGoogleForm2()">Register</button>
+    </div>
+  </div>
+
+  <div id="cypress-labyrinth" class="popup">
+    <button class="popup-close" onclick="closePopup('cypress-labyrinth')">×</button>
+    <div class="popup-content">
+      <h2>Cypress Labyrinth</h2>
+      <p><strong>Description:</strong>Participants solve engineering and technical puzzles in themed scenarios to unlock the final mechanism and achieve "escape" or event completion.</p>
+      <p> Event heads : Allwyn Felix I</p>
+      <p>Ph.No: 7200388969</p>
+      <button class="popup-register" onclick="redirectToGoogleForm6()">Register</button>    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
